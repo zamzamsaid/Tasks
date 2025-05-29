@@ -55,7 +55,7 @@ def run_etl():
         connection = pymysql.connect(
             host='localhost',
             user='root',
-            password='Zamzam@2001',
+            password='root',
             database='store',
             cursorclass=pymysql.cursors.DictCursor
         )
